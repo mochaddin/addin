@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Muhammad Addin</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #212529; /* Warna gelap */
+            color: white; /* Warna teks putih */
+            font-family: 'Roboto', sans-serif; /* Mengubah font */
+        }
+        .header {
+            background-color: #343a40; /* Warna abu-abu gelap */
+            padding: 60px 0;
+            text-align: center;
+            animation: fadeIn 1s ease-in-out; /* Animasi header */
+        }
+        .header h1 {
+            font-size: 2.5rem;
+        }
+        .header p {
+            font-size: 1.2rem;
+            max-width: 600px; /* Maksimal lebar untuk teks deskripsi */
+            margin: 0 auto; /* Pusatkan deskripsi */
+        }
+        .portfolio-item {
+            margin: 15px 0;
+        }
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #343a40;
+        }
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover; /* Mengatur foto agar tetap proporsional */
+            margin-top: 20px;
+            border: 3px solid #fff; /* Border putih di sekeliling foto profil */
+        }
+        .skill-item {
+            margin: 20px 0;
+            display: flex;
+            align-items: center;
+            font-size: 1.2rem;
+            background-color: #495057; /* Kotak latar belakang untuk soft skills */
+            border-radius: 10px; /* Sudut membulat */
+            padding: 15px; /* Padding di dalam kotak */
+            transition: transform 0.3s; /* Transisi saat hover */
+        }
+        .skill-item:hover {
+            transform: scale(1.05); /* Efek zoom saat hover */
+        }
+        .skill-icon {
+            font-size: 2rem; /* Ukuran ikon */
+            margin-right: 10px;
+        }
+        .card {
+            border: none; /* Menghilangkan border pada kartu */
+            transition: transform 0.3s; /* Transisi saat hover */
+        }
+        .card:hover {
+            transform: scale(1.05); /* Efek zoom saat hover */
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <img src="moch1.jpg" alt="Foto Profil" class="profile-img">
+            <h1>Muhammad Addin</h1>
+            <p>Saya adalah mahasiswa Sistem Informasi yang tertarik dengan pengembangan web. Saya berkomitmen untuk menciptakan solusi digital yang inovatif dan fungsional.</p>
+            <div class="mt-4">
+                <a href="#pengalaman" class="btn btn-outline-light">Experience</a>
+                <a href="#soft-skills" class="btn btn-outline-light">Soft Skills</a>
+                <a href="#contact" class="btn btn-outline-light">Contact Me</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="container mt-5" id="pengalaman">
+        <h2 class="text-center">Portofolio Saya</h2>
+        <div class="row">
+            <div class="col-md-4 portfolio-item">
+                <div class="card bg-dark text-white">
+                    <img src="dlm1 (4).JPG" class="card-img-top" alt="Project 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Ketua Umum Dewan Legislatif Mahasiswa</h5>
+                        <p class="card-text">Sebagai Ketua Umum Dewan Legislatif Mahasiswa, saya bertanggung jawab untuk memimpin dan mengorganisir berbagai kegiatan Kampus serta mengembangkan potensi mahasiswa..</p>
+                        <a href="proyek1.html" class="btn btn-primary">Lihat Lebih Lanjut</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 portfolio-item">
+                <div class="card bg-dark text-white">
+                    <img src="unm 1.jpg" class="card-img-top" alt="Project 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Unama Night Market</h5>
+                        <p class="card-text">Saya bertanggung jawab sebagai PIC Unama Night Market di Universitas Dinamika Bangsa Jambi yang menampilkan produk lokal dari UMKM, menggabungkan kewirausahaan, budaya, dan hiburan..</p>
+                        <a href="proyek2.html" class="btn btn-primary">Lihat Lebih Lanjut</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 portfolio-item">
+                <div class="card bg-dark text-white">
+                    <img src="plat 8.jpg" class="card-img-top" alt="Project 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Platinum Unama 2023</h5>
+                        <p class="card-text">(Kakak Regu/Pemandu).Platinum adalah wadah mahasiswa baru agar mendapatkan wawasan mengenai kampus Unama mulai dari sisi akademik dan non akademik. </p>
+                        <a href="proyek3.html" class="btn btn-primary">Lihat Lebih Lanjut</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container mt-5" id="soft-skills">
+        <h2 class="text-center">Soft Skills</h2>
+        <div class="row">
+            <div class="col-md-6 text-center skill-item">
+                <div class="skill-icon">🗣️</div>
+                <div>Komunikasi yang baik</div>
+            </div>
+            <div class="col-md-6 text-center skill-item">
+                <div class="skill-icon">🤝</div>
+                <div>Kerja tim yang solid</div>
+            </div>
+            <div class="col-md-6 text-center skill-item">
+                <div class="skill-icon">💡</div>
+                <div>Kreativitas dalam pemecahan masalah</div>
+            </div>
+            <div class="col-md-6 text-center skill-item">
+                <div class="skill-icon">⏰</div>
+                <div>Manajemen waktu yang efisien</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container mt-5" id="contact">
+        <h2 class="text-center">Contact Me</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">Nama</label>
+                <input type="text" class="form-control" id="name" placeholder="Masukkan nama Anda">
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Masukkan email Anda">
+            </div>
+            <div class="form-group">
+                <label for="message">Pesan</label>
+                <textarea class="form-control" id="message" rows="3" placeholder="Tulis pesan Anda"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Kirim</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Muhammad Addin. Semua Hak Dilindungi.</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
